@@ -20,3 +20,4 @@ T.Attorney = categorical(T.Attorney);
 T.MaritalStatus = categorical(T.MaritalStatus);
 T.Gender = categorical(T.Gender);
 
+T.LogAmount = log(T.Amount);
