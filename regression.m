@@ -1,6 +1,6 @@
 function mdl = run_regression(T)
  
-T.LogAmount = T.Amount;
+T.LogAmount = log(T.Amount);
  
 mdl = fitlm(T, 'LogAmount ~ Age + Severity + Attorney + Specialty');
  
