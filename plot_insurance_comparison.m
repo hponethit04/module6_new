@@ -1,3 +1,4 @@
+%creates figures comparing different types of insurance
 function plot_insurance_comparison(T)
  
 % Figure 1: Box plot
