@@ -1,3 +1,6 @@
+% creates a matrix showing correlation between all dependent variables
+% used to assess collinearity of variables
+
 function cor_table = computeCorrelationMatrix(T)
     X = T(1:height(T), 2:width(T));
     X.Specialty     = grp2idx(X.Specialty);
