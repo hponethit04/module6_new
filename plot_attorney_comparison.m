@@ -1,3 +1,5 @@
+
+% creates figures comparing different stats for private vs public attorney
 function plot_attorney_comparison(T)
 
 % Figure 1: Box plot
