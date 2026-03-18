@@ -1,3 +1,5 @@
+% simple function calculating correlation between two variables
+% can be used instead of corr matrix but is less efficient 
 function print_corr(name, x, y)
     [r, p] = corr(double(x), double(y));
 
