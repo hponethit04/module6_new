@@ -2,7 +2,7 @@
 This project analyzes a medical malpractice dataset to identify factors that may influence payout amounts. With The analysis covers descriptive statistics, correlation diagnostics, data visualizations and regression models. Our project attempts to analyze the various factors that might influence the payout amount of malpractice cases.
 
 **Dataset**
-The dataset contains 79210 medical malpractice cases with the following variables:
+The dataset contains 79210 medical malpractice cases with the following variables: <br />
 Amount - Amount of the claim payment in dollars
 Severity - The severity rating of damage to the patient, from 1 (emotional trauma) to 9 (death)
 Age - Age of the claimant in years
