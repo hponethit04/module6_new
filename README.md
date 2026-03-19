@@ -1,7 +1,7 @@
-**Overview**
+**Overview** <br />
 This project analyzes a medical malpractice dataset to identify factors that may influence payout amounts. With The analysis covers descriptive statistics, correlation diagnostics, data visualizations and regression models. Our project attempts to analyze the various factors that might influence the payout amount of malpractice cases.
 
-**Dataset**
+**Dataset** <br />
 The dataset contains 79210 medical malpractice cases with the following variables: <br />
 Amount - Amount of the claim payment in dollars <br />
 Severity - The severity rating of damage to the patient, from 1 (emotional trauma) to 9 (death) <br />
@@ -12,7 +12,7 @@ Specialty - Specialty of the physician involved in the lawsuit <br />
 Insurance - Type of medical insurance carried by the patient <br />
 Gender - Patient Gender <br />
 
-**Project Structure**
+**Project Structure** <br />
 main.m- main script to execute full analysis <br />
 load_and_clean.m- loads cvs and prepares data <br />
 print_summary_stats.m- summary statistics by group <br />
@@ -23,7 +23,7 @@ plot_insurance_comparison.m- visualizations comparing outcomes across insurance 
 run_regression.m- base linear regression model <br />
 sensitivity_analysis.m- model specification and robustness checks <br />
 
-**Proposal Review**
+**Proposal Review** <br />
 Modular code- every analysis step is its own .m file and can taken in other data as well if needed <br />
 Built in MATLAB functions- the project makes extensive use of builtin functions like fitlm, corrcoef and groupsummary <br />
 Descriptive statistics by group- the project analyzes within groups and outputs descriptive statistics for each group <br />
